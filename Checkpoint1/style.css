@@ -1,0 +1,150 @@
+footer col {
+    background-color: black;
+}
+
+.navbar-brand {
+    font-family: 'Nosifer', sans-serif;
+    font-size: 50px;
+    color: red;
+}
+.center img{
+    height: 250px;
+    width: auto;
+}
+
+.center h2{
+    text-align: center;
+    color: #a13e3e;
+}
+
+.center {
+    background-color: lightgray;
+    min-height: 100vh;
+/*    height: 500px;*/
+    width: 100%;
+    background-position: center;
+    background-size: 50%;
+    padding: 2%;
+}
+
+.text-box {
+    background-color: #333232;
+    text-align: center;
+    image-orientation: flip;
+    padding: 10%;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+
+    text-align: center;
+    margin-top: 3px;
+    background-color: black;
+    color: white;
+}
+.footer h4 {
+    margin-top: 10%;
+}
+
+.header {
+    background-color: lightgray;
+}
+
+.header .btn {
+    background-color: black;
+    position: center;
+    border-color: white;
+    color: white;
+}
+
+.header .btn:hover{
+    transition: 0.5s;
+    background-color: darkgray;
+    border-color: black;
+}
+
+.footer a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.sidebar {
+    background-color: lightgray;
+}
+
+.nav-link {
+    margin: 1px;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgray;
+    font-size: large;
+}
+.nav-link ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+.nav-link:hover {
+    color: #fdfdfd;
+    text-decoration: underline;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.nav-link ul li:hover::after {
+    width: 100%;
+    color: #f44336;
+}
+
+.mb-3{
+    color:white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+form .btn-primary{
+    background-color: black;
+    position: center;
+    margin-left: 45%;
+    border-color: white;
+    border-radius: 0;
+}
+
+form .btn-primary:hover{
+    transition: 0.5s;
+    background-color: darkgray;
+    border-radius: 0;
+    border-color: black;
+}
+
+.form-control{
+    max-width: 200px;
+    margin-left: 40%;
+}
+.form-label{
+
+    margin-left: 40%;
+}
+form{
+    padding-top: 10%;
+}
+
+form h2{
+    margin-left: 42%;
+}
+
+.form-check {
+    margin-left: 40%;
+}
+
+.thumbnail{
+    max-width: 25%;
+}
